@@ -1,0 +1,35 @@
+html{
+    font: Helvetica, sans-serif 16px;
+    line-height: 1.5;
+}
+body{
+   margin: 50px;
+}
+section{
+    border-bottom: 1px solid grey;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: Georgia, serif;
+}
+table, td{
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+table{
+    width: 100%;
+}
+th{
+    text-align: left;
+    background: rgb(167, 165, 165);
+}
+tr:nth-child(odd){
+    background: rgb(226, 226, 226);
+}
+blockquote{
+    border-left: 1px solid grey;
+    padding: 5px 20px;
+    font-style: italic;
+}
+.author{
+    text-align: right;
+}

@@ -1,0 +1,63 @@
+html{
+    background: rgb(212, 212, 212);
+}
+h2{
+    color: black;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 30px;
+    margin: 7px;    
+}
+.normal{
+    color: black;
+    border: 2px solid green;
+    padding: 7px 25px 7px 25px;
+    border-radius: 25px;
+    margin: 7px;
+}
+.normalGreen{
+    color: green;
+    border: 2px solid green;
+    padding: 7px 25px 7px 25px;
+    border-radius: 25px;
+    margin: 7px;
+}
+.filled{
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 25px;
+    background: black;
+    padding: 7px 25px 7px 25px;
+    margin: 7px;
+}
+.filledGreen{
+    color: white;
+    background: green;
+    border: 2px solid green;
+    border-radius: 25px;
+    padding: 7px 25px;
+    margin: 7px;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+}
+.icon{
+    color: white;
+    background: black;
+    padding: 7px 25px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 7px;
+}
+.iconGreen{
+    color: white;
+    background: green;
+    border: 2px solid green;
+    border-radius: 25px;
+    font-weight: bold;
+    padding: 7px 25px;
+    margin: 7px;
+}
