@@ -1,0 +1,38 @@
+html{
+    font-family: Helvetica, sans-serif;
+    font-size:16px;
+    line-height: 1.2;
+}
+body{
+    margin: 3%;
+}
+header{
+    border-bottom: 3px solid grey;
+}
+h1{
+    font-family: Georgia, serif;
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: normal;
+}
+header p{
+    font-size: 40px;
+    font-weight: bolder;
+    display: inline;
+    margin-right: 3em;
+}
+nav{
+    display: inline;
+}
+ul{
+    display: inline-block;
+}
+nav li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 1em;
+}
+nav a{
+    text-decoration: none;
+    color: green;
+}
