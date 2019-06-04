@@ -1,0 +1,29 @@
+.viewport:first-of-type{
+    background: rgb(12,85,211); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(12,85,211,1) 0%, rgba(12,206,177,1) 80%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(12,85,211,1) 0%,rgba(12,206,177,1) 80%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(12,85,211,1) 0%,rgba(12,206,177,1) 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.viewport:last-of-type{
+    background: rgb(206,12,193); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(206,12,193,1) 0%, rgba(224,154,13,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(206,12,193,1) 0%,rgba(224,154,13,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(206,12,193,1) 0%,rgba(224,154,13,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+body{
+    margin: 0;
+}
+.viewport{
+    width: 100vw;
+    height: 50vh;
+}
+.firstImg{
+    width: 17vw;
+   height: 20vh;
+   margin: 15vh 41.5vw;
+}
+.secondImg{
+    width: 17vw;
+    height: 43vh;
+    margin: 3vh 41.5vw;
+}

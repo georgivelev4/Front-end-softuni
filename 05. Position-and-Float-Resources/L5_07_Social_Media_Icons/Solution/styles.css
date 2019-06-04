@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+ul{
+    display: flex;
+    width: 40%;
+    list-style-type: none;
+}
+a{
+    border-radius: 50%;
+    text-decoration: none;
+    color: black;
+}
+li{
+    margin: 1rem;
+    width: 15%;
+    background: lightgrey;
+    border-radius: 50%;
+    text-align: center;
+}
+i{
+    padding: 20px 10px;
+    font-size: 32px;  
+}
+.fab.fa-facebook-square:hover{
+    color: rgb(22, 99, 163);
+}
+.fab.fa-twitter:hover{
+    color: rgb(97, 182, 221);
+}
+.fab.fa-google-plus:hover{
+    color: rgb(235, 61, 49);
+}
+.fab.fa-linkedin:hover{
+    color: rgb(97, 182, 221);
+}
+.fab.fa-instagram:hover{
+    color: rgb(97, 182, 221);
+}
