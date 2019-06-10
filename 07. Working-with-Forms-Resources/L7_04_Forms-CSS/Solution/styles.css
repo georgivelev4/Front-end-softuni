@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+}
+html{
+    background: rgb(238,238,238);
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+form{
+    width: 50%;
+    margin: 0 auto;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+}
+legend{
+    border: 1px solid grey;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.username-container, .password-container{
+    background: white;
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid grey;
+    overflow: hidden;
+}
+.username-container i, .password-container i{
+    padding: 10px;
+}
+label{
+    font-weight: bold;
+}
+.username-container input, .password-container input{
+    width: 100%;
+    border: none;
+    height: 5vh;
+}
+input[type='submit']{
+    max-width: 25%;
+    margin: 0.5rem;
+    background: black;
+    color: white;
+    border: none;
+    height: 30px;
+    
+}
+.username-container:hover, .password-container:hover{
+    border: 1px solid green;
+    color: green;
+}

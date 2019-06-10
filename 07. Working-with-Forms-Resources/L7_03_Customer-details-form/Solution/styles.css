@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: Montserrat, sans-serif;
+    line-height: 1.2;
+}
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+form{
+    flex: 0 0 40%;
+    margin: 0 auto;
+    background: rgb(173, 216, 230);
+    padding: 1rem;
+}
+form p{
+    
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem;
+}
+.first-name-container, .last-name-container, .gender-container, .email-container, .phone-container, .town-container, .age-container, .language-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.message-container{
+   
+    display: flex;
+    
+}
+.first-name-container label, .last-name-container label, .gender-container label:first-of-type, .email-container label, .phone-container label, .town-container label, .age-container label, .language-container label, .message-container label{
+    width: 20%;
+    margin: 1rem;
+}
+.first-name-container input, .last-name-container input, .email-container input, .phone-container input, .town-container select, .age-container input, .language-container input{
+    width: 50%;
+    height: 5vh;
+    padding: 0.5rem;
+}
+.gender-container label:nth-child(3), .gender-container label:nth-child(5){
+    margin: 0 0.5rem;
+}
+.message-container label{
+    margin-top: 0;
+}
+.message-container textarea{
+    width: 50%;
+    padding: 0.5rem;
+}
+.send-container{
+    text-align: center;
+}
+.send-container input{
+    background: darkblue;
+    color: white;
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+}
+.checkbox-container{
+     margin: 1rem;
+}
+@media (max-width: 600px){
+    body{
+        font-size: 12px;
+        
+    }
+    input::placeholder{
+        font-size: 9px;
+    }
+}
