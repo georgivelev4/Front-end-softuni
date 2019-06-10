@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, ul, li{
+    display: flex;
+}
+body{
+    justify-content: center;
+    margin: 2rem;
+}
+section{
+    max-width: 70vw;
+}
+ul{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+}
+li{
+    max-width: 30%;
+    border: 6px solid black;
+    box-shadow: 0px 0px 50px -6px rgba(0,0,0,0.75);
+    background: white;
+    margin: 1rem;
+}
+.big{
+    padding: 2rem 10px;
+}
+.small{
+    padding: 6rem 10px;
+}
+.average{
+    padding: 4rem 10px;
+}
+img{
+    max-width: 100%;
+}

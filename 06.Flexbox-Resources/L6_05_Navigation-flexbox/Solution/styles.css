@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header p{
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+body{
+    margin: 4rem;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    margin-bottom: 2em;
+    flex-wrap: wrap;
+}
+header nav a{
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+header nav li{
+    list-style-type: none;
+}
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+header nav li{
+    margin: 1em;
+}
+main h1{
+    font-weight: normal;
+    font-size: 1.7em;
+    padding-bottom: 1em;
+}
+p{
+    line-height: 1.2;
+    letter-spacing: 1.1;
+    padding-bottom: 1em;
+}
